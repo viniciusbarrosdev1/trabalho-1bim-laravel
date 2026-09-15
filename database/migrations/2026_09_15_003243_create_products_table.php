@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('nome');
             $table->decimal('preco', 10, 2);
-            $table->string('unidade_medida', 10);
+            $table->string('unidade_medida', 20);
             $table->timestamps();
         });
     }
